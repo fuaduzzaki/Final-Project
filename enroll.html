@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            background-color: #181825;
+            border: 2px solid #89b4fa;
+            color: white;
+            border-radius: 10px;
+            font-family: 'Fira Code', monospace;
+        }
+        label { color: #89b4fa; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>📝 Student Registration</h1>
+    
+    <div class="card" style="width: 60%;">
+        <form>
+            <label>Student Name:</label>
+            <input type="text" name="student_name" placeholder="Enter your name..." required>
+
+            <label>Create Password:</label>
+            <input type="password" name="pass" required>
+
+            <label>Select Course:</label>
+            <select name="course">
+                <option>Python Basics</option>
+                <option>Web Design</option>
+                <option>C++ Gaming</option>
+            </select>
+
+            <br><br>
+            <label>Learning Mode:</label><br>
+            <input type="radio" name="mode" value="online" style="width: auto;"> Online
+            <input type="radio" name="mode" value="offline" style="width: auto;"> Offline Campus
+
+            <br><br>
+            <input type="checkbox" name="newsletter" style="width: auto;"> Get daily coding tips?
+
+            <br><br>
+            <label>Why do you want to code?</label>
+            <textarea name="reason" rows="3"></textarea>
+          
+            <input type="submit" value="Start Coding!" class="btn" style="width: 100%; cursor: pointer;">
+        </form>
+    </div>
+</body>
+</html>

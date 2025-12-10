@@ -1,0 +1,53 @@
+/* EXTERNAL CSS METHOD [cite: 9] */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500;700&family=Fira+Code:wght@400&display=swap');
+
+body {
+    background-color: #1e1e2e; /* Dark Blue (IDE Background) */
+    font-family: 'Fredoka', sans-serif; /* Cartoon Font */
+    color: #cdd6f4; /* Soft White Text */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Headings look like code comments */
+h1 {
+    color: #a6e3a1; /* Neon Green */
+    text-align: center;
+    text-shadow: 3px 3px 0px #000; /* Hard shadow */
+    font-family: 'Fira Code', monospace; /* Coding Font */
+    margin-bottom: 30px;
+}
+
+h2, h3 {
+    color: #f38ba8; /* Soft Red/Pink */
+}
+
+/* The "Card" Look - Knit/Cartoon Style */
+.card {
+    background-color: #313244; /* Lighter Blue Card */
+    border-radius: 20px;
+    padding: 25px;
+    margin: 15px auto;
+    width: 80%;/* Dimension Property */
+    box-shadow: 0px 8px 0px #11111b; /* Thick dark shadow */
+    border: 3px solid #cba6f7; /* Purple Outline */
+    text-align: center;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    background-color: #89b4fa; /* Blue Button */
+    color: #1e1e2e;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #1e1e2e;
+    box-shadow: 0px 4px 0px #1e1e2e;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    background-color: #b4befe;
+}
